@@ -22,11 +22,7 @@ function App() {
 
 </div>
 
-<video style={{width:"320", height:"240"}}>
-
- <source src={myVideo} type="video/mp4"/ >
-
-</video>
+<video style={{ width: "320", height: "240" }} src={myVideo} controls/>
 </div>
   );
 }
